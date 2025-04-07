@@ -45,7 +45,14 @@ section {
         margin: 5px 0;
     }
 
-    #imgabout {
+    #imgpeople {
+        float: none;
+        max-width: 100%;
+        margin: 20px 0;
+        display: block;
+    }
+
+    #imgbelief {
         float: none;
         max-width: 100%;
         margin: 20px 0;
