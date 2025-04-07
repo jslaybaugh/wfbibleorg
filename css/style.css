@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:wght@400;700&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css');
+
+/* General styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inria Sans', sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+p {
+    margin-bottom: 20px;
+    text-align:center;
+}
+
+img {
+    margin:auto;
+}
+
+/* Header styles */
+header {
+  background-image: url('../img/desk.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
+  position: relative;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+nav {
+  background-color: #1a3a5f; /* Darker blue navigation bar */
+  position: relative;
+  width: 100%;
+  padding: 10px 0;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #ddd;
+}
+
+/* Section styles */
+section {
+  padding: 60px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+section h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #1a3a5f;
+}
+
+section img {
+  max-width: 100%;
+  height: auto;
+  margin: 20px 0;
+  border-radius: 5px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* About section image styles */
+#imgabout {
+  float: right;
+  max-width: 40%; /* Adjust size as needed */
+  margin: 0 0 20px 30px; /* Top, Right, Bottom, Left margins */
+  border-radius: 5px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Clear floats at the end of the section */
+#about::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+#contact a {
+  color: #1a3a5f;
+  font-weight: bold;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+#contact a:hover {
+  color: #2c5d99;
+  text-decoration: underline;
+}
+
+
+
+/* Footer styles */
+footer {
+  background-color: #f5f5f5;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+  color: #666;
+}
